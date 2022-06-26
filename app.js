@@ -50,7 +50,7 @@ if(userName.length<3 || userName.length>10){
     
     use.push(newUser)
     
-    alert("خوش امدی")
+    alert("welcome!")
      
  }
 
