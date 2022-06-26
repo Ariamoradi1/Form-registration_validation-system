@@ -1,4 +1,4 @@
-const use = [
+const user = [
  
  {name:"", family:"", age:"", email:""}, 
  
@@ -54,3 +54,4 @@ if(userName.length<3 || userName.length>10){
      
  }
 
+console.log(user)
