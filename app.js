@@ -1,22 +1,22 @@
-var use = [
+const use = [
  
  {name:"", family:"", age:"", email:""}, 
  
   {name:"", family:"", age:"", email:""}, 
   
-  {name:"", family:"", age:"", email:""}
+  {name:"", family:"", age:"", email:""},
   
  ]
 
 
 
-var userName = prompt("لطفا نام خود را وارد کنید")
+const userName = prompt("لطفا نام خود را وارد کنید")
 
-var userFamily = prompt("لطفا نام خانوادگی را وارد کنید")
+const userFamily = prompt("لطفا نام خانوادگی را وارد کنید")
 
-var userAge = Number(prompt("لطفا سن خود را وارد کنید")) 
+const userAge = Number(prompt("لطفا سن خود را وارد کنید")) 
 
-var userEmail = prompt("لطفا ایمیل خودرا وارد کنید")
+const userEmail = prompt("لطفا ایمیل خودرا وارد کنید")
 
 
 
@@ -37,7 +37,7 @@ if(userName.length<3 || userName.length>10){
  }else{
      
      
-    var newUser = {
+    const newUser = {
         
         name:userName,
         family:userFamily,
