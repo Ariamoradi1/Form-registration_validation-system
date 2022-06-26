@@ -48,7 +48,7 @@ if(userName.length<3 || userName.length>10){
         
     }
     
-    use.push(newUser)
+    user.push(newUser)
     
     alert("welcome!")
      
