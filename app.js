@@ -10,29 +10,29 @@ const user = [
 
 
 
-const userName = prompt("لطفا نام خود را وارد کنید")
+const userName = prompt("please enter your name")
 
-const userFamily = prompt("لطفا نام خانوادگی را وارد کنید")
+const userFamily = prompt("please enter your family name")
 
-const userAge = Number(prompt("لطفا سن خود را وارد کنید")) 
+const userAge = Number(prompt("please enter your age")) 
 
-const userEmail = prompt("لطفا ایمیل خودرا وارد کنید")
+const userEmail = prompt("please enter your email")
 
 
 
 
 if(userName.length<3 || userName.length>10){
      
-     alert("لطفا نام را به درستی وارد کنید ")
+     alert("The name must have a minimum of three characters and a maximum of 10 characters ")
      
  }else if(userFamily.length<3 || userFamily.length>15){
      
-     alert("لطفا نام خانوادگی را به درستی وارد کنید")
+     alert("The family must have a minimum of 3 characters and a maximum of 15 characters")
      
  }else if(isNaN(userAge) || userAge>4){
      
      
-     alert("لطفا سن را درست وارد کنید")
+     alert("age must be a number and three digits")
      
  }else{
      
